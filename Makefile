@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 .SILENT:
-NAME = libftprintf.a
+NAME = dprintf.a
 CC = cc
 FLAGS = -Wall -Werror -Wextra
 AR= ar rcs
@@ -42,15 +42,15 @@ $(OBJS):
 	$(CC) -c $(FLAGS) $(SRC)
 
 all: $(NAME)
-	@echo "$(CYAN)[Printf] $(GREEN)Library Compiled$(RESET)"
+	@echo "$(CYAN)[Dprintf] $(GREEN)Library Compiled$(RESET)"
 
 clean:
 	rm -f $(OBJS)
-	@echo "$(CYAN)[Printf] $(RED)Objects Cleaned$(RESET)"
+	@echo "$(CYAN)[Dprintf] $(RED)Objects Cleaned$(RESET)"
 
 fclean:
 	rm -f $(NAME) $(OBJS)
-	@echo "$(CYAN)[Printf] $(RED)Library, Objects Cleaned$(RESET)"
+	@echo "$(CYAN)[Dprintf] $(RED)Library, Objects Cleaned$(RESET)"
 
 re: fclean all
 
