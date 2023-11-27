@@ -6,7 +6,7 @@
 /*   By: aceauses <aceauses@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 09:47:00 by aceauses          #+#    #+#             */
-/*   Updated: 2023/11/26 21:59:30 by aceauses         ###   ########.fr       */
+/*   Updated: 2023/11/27 10:38:04 by aceauses         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 # include <stdio.h>
 
-int		ft_printf(int fd, const char *str, ...);
+int		ft_dprintf(int fd, const char *str, ...);
 
 int		ft_putchar(char c, int fd);
 int		ft_putstr(char *c, int fd);

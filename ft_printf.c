@@ -6,7 +6,7 @@
 /*   By: aceauses <aceauses@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 09:47:11 by aceauses          #+#    #+#             */
-/*   Updated: 2023/11/26 21:59:38 by aceauses         ###   ########.fr       */
+/*   Updated: 2023/11/27 10:37:39 by aceauses         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ static int	printf_symbol(va_list args, int c, int fd)
 	return (print);
 }
 
-int	ft_printf(int fd, const char *str, ...)
+int	ft_dprintf(int fd, const char *str, ...)
 {
 	int		print;
 	int		i;
